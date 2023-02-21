@@ -1,1 +1,21 @@
-site_name: My Docs
+site_name: userdel.com
+extra:
+  homepage: https://userdel.com
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/seajoshc
+plugins:
+  - search
+theme:
+  name: material
+  icon:
+    logo: fontawesome/regular/floppy-disk
+  palette:
+    scheme: slate
+    primary: blue grey
+    accent: teal
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
